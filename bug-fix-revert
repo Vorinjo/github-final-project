@@ -1,0 +1,11 @@
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/11113 | jq '{number, state, html_url, head_repository: .head.repo.full_name, head_branch: .head.ref, head_clone_url: .head.repo.clone_url, base_repository: .base.repo.full_name, base_branch: .base.ref}'
+{
+  "number": 11113,
+  "state": "closed",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/11113",
+  "head_repository": "Vorinjo/github-final-project",
+  "head_branch": "bug-fix-revert",
+  "head_clone_url": "https://github.com/Vorinjo/github-final-project.git",
+  "base_repository": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+  "base_branch": "main"
+}
