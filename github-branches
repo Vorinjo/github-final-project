@@ -1,0 +1,4 @@
+git branch -vv
+  bug-fix-revert c9769b2 [origin/bug-fix-revert] Revert "Fix typo in footer year"
+  bug-fix-typo   7ce4a9d [origin/bug-fix-typo] Fix typo in footer year
+* main           1e1bee4 [origin/main] Add pull request verification output
